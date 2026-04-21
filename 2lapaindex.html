@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spēle</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    
+<header>
+        <a href="index.html" class="poga2_nov">
+        <button>Atpakaļ uz sākumu</button>
+        </a>
+        <h1>SPĒLE</h1>
+        <p>Taisnība vai meli?</p>
+    </header>
+ 
+    <div class="speles_lauks">
+        
+        <h2 id="jautajums">Jautājums parādīsies šeit...</h2>
+
+        <div class="spelei_pogas">
+            <button class="poga_patiess" onclick="parbauda(true)">Patiess</button>
+            <button class="poga_aplams" onclick="parbauda(false)">Aplams</button>
+        </div>
+    
+    
+        <p id="atsauksme"></p>
+        <p>Punkti: <span id="punkti">0</span></p>
+
+        <p id="atsauksme"></p>
+        <h3 class="punktu_skaititajs">Punkti: <span id="punkti">0</span></h3>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
